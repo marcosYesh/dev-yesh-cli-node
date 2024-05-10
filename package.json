@@ -1,0 +1,14 @@
+{
+    "name": "dev-yesh-cli-node",
+    "version": "1.0.0",
+    "description": "A simple CLI tool for creating document structure in projects. It provides a straightforward interface for generating necessary files and folders. This tool is designed to assist in organizing project documents efficiently. It does not generate the content of the files, only the file structure. Usage: node script.js init - Initialize project structure node script.js create-entity [entityName] - Create files for a new entity node script.js create-component [entityName] [componentType] - Create a specific component for an entity node script.js help - Display this help message Available component types: object - controllers - models - services - validators - middleware - routes",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js init",
+        "create-entity": "node src/index.js create-entity [entityName]",
+        "create-component": "node src/index.js create-component [entityName] [componentType]",
+        "help": "node src/index.js help"
+    },
+    "author": "marcos@yesh.com.br",
+    "license": "MIT"
+}

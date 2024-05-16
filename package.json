@@ -23,5 +23,8 @@
     "bugs": {
         "url": "https://github.com/marcosYesh/dev-yesh-cli-node/issues"
     },
-    "homepage": "https://github.com/marcosYesh/dev-yesh-cli-node#readme"
+    "homepage": "https://github.com/marcosYesh/dev-yesh-cli-node#readme",
+    "bin": {
+        "dev-yesh-cli-node": "src/index.js"
+    }
 }

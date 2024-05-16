@@ -29,6 +29,6 @@ switch (command) {
     default:
         console.log('Invalid command. Use "help" for usage information.');
         const foldersDataHelpNoparameter = config.folders;
-        displayHelp(foldersDataHelp);
+        displayHelp(foldersDataHelpNoparameter);
         break;
 }

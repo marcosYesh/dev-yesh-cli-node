@@ -1,6 +1,6 @@
 {
     "name": "dev-yesh-cli-node",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A simple CLI tool for creating document structure in projects. It provides a straightforward interface for generating necessary files and folders. This tool is designed to assist in organizing project documents efficiently. It does not generate the content of the files, only the file structure.",
     "scripts": {
         "start": "node src/index.js init",

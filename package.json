@@ -26,5 +26,6 @@
     "homepage": "https://github.com/marcosYesh/dev-yesh-cli-node#readme",
     "bin": {
         "dev-yesh-cli-node": "dev-yesh-cli-node"
-    }
+    },
+    "type": "module"
 }

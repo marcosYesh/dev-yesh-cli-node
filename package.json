@@ -25,6 +25,6 @@
     },
     "homepage": "https://github.com/marcosYesh/dev-yesh-cli-node#readme",
     "bin": {
-        "dev-yesh-cli-node": "src/index.js"
+        "dev-yesh-cli-node": "node src/index.js"
     }
 }

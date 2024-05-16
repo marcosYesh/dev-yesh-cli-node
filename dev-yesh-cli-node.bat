@@ -6,8 +6,8 @@ setlocal
 :: Se retornar algo, sabemos que é Windows
 ver >nul 2>&1
 if %errorlevel% equ 0 (
-    node src\index.js %*
+    node .\node_modules\dev-yesh-cli-node\src\index.js %*
 ) else (
     #!/bin/bash
-    node src/index.js "$@"
+    node ./node_modules/dev-yesh-cli-node/src/index.js "$@"
 )

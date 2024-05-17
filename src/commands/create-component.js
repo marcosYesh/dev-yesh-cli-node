@@ -18,7 +18,6 @@ export function createComponentCommand(entityName, componentType) {
     }
 
     console.log(`Creating ${componentType} for entity ${entityName}`);
-    const filePath = `../../api/${folders[componentType]}/${entityName}${capitalizeFirstLetter(componentType)}.js`;
-
+    const filePath = `./${folders[componentType]}/${entityName}${capitalizeFirstLetter(componentType)}.js`;
     createFiles([filePath]);
 }
